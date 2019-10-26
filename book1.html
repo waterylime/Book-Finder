@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+</body>
+ <script type="text/javascript">
+    function myCallback(result) {
+      alert('nb of reviews for book: ' + result.reviews.length);
+    }
+    var scriptTag = document.createElement('script');
+    scriptTag.src = "https://www.goodreads.com/book/isbn/0441172717?callback=myCallback&format=json&user_id=104200216";
+    document.getElementsByTagName('head')[0].appendChild(scriptTag);
+    </script>
+<body>
+    
+</html>
