@@ -1,7 +1,7 @@
 # Book-Finder
 
 
- usuer story: As a reader I want to see books recommend from a title entered/ books
+ user story: As a reader I want to see books recommend from a title entered/ books
 								recommended from genres. Along with reader reviews and rating. So that I can find new
         
         
